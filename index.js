@@ -60,7 +60,7 @@ app.get('/pairing', async (req, res) => {
             let c = output.data.split('/')[3];
             await delay(1000) 
             let session_id  = await sparky.sendMessage(sparky.user.id, { 
-               text: 'MAKINO-MD-V2:'+c.trim()
+               text: 'SUBZERO-MD-V2:'+c.trim()
             })
             //session quarted sender 
             let cc = `*⚠️ Don't Share The SESSION-ID 👆 Shown Above to anyone*`;
@@ -89,27 +89,7 @@ https://youtu.be/SfXJuSug4Lo?si=aRToYKZFZFzan0a0
             
             
 *©ASWIN SPARKY*` }, {quoted: session_id});*/
-			await sparky.sendMessage(sparky.user.id, { text: `Thanks for Choosing MAKINO-MD-V2\n\n
-Join the Official channel and group of MAKINO-MD Whatsapp bot to get latest bot updates with live heroku cc and heroku account giveaway 🥳 .
-Also follow to get Hacking and Programming updates and tools 😋,Don't miss the opportunity.
-channel link 👇 
-
-https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K
-
-Makino-md-v2 official group 👇 
-
-https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk
-
-Makino-md-v2 official group 👇
-
-https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm
-GitHub 👇
-https://github.com/Anonphoenix007
-Makino-Md 👇
-https://github.com/Anonphoenix007/MAKINO-MD
-Makino-md-v2 👇
-https://github.com/Anonphoenix007/MAKINO-MD-V2
-don't forget to star and fork repo` }, { quoted: session_id});
+			await sparky.sendMessage(sparky.user.id, { text: `Thanks for Choosing SUBZERO-MD-V2\n\n ALWAYS KNOW THAT SUBZERO IS THE BEST AND FRANK LOVES YOU` }, { quoted: session_id});
 
            await sparky.updateProfilePicture(sparky.user.id, { url: './pfp.jpg' })
            await sparky.groupAcceptInvite("EKdfDFDoi5C3ck88OmbJykx");
